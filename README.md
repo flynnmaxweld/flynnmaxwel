@@ -1,110 +1,103 @@
 <div align="center">
 
-# Flynn Maxwel D
+# ~/flynn
 
-### Building intelligent systems with thoughtful design.
+```console
+flynn@github:~$ whoami
 
-<br>
+Flynn Maxwel D
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=520&lines=Artificial+Intelligence;Machine+Learning;Local+LLMs;Full+Stack+Development;Always+Building."/>
+Computer Science Student
+Artificial Intelligence & Machine Learning
 
-<br>
+Building intelligent systems that solve real problems.
+```
 
-<p>
-<img src="https://img.shields.io/badge/AI%20Engineer-181717?style=flat-square">
-<img src="https://img.shields.io/badge/Open%20Source-181717?style=flat-square">
-<img src="https://img.shields.io/badge/India-181717?style=flat-square">
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=500&lines=Local+AI;Machine+Learning;Full+Stack;Always+Learning"/>
 
 </div>
 
 ---
 
-## /
+## ~/stack
 
-```txt
-Name        Flynn Maxwel D
+```console
+flynn@github:~$ ls tech/
 
-Role        Computer Science Student
-
-Speciality  Artificial Intelligence & Machine Learning
-
-Building    AI Systems
-            Local LLMs
-            Automation
-            IoT
-            Full Stack Applications
+Python
+Java
+C++
+JavaScript
+TypeScript
+React
+Node.js
+TensorFlow
+PyTorch
+Docker
+Linux
+Git
+Arduino
 ```
 
 ---
 
-## /stack
+## ~/projects
 
-<p align="center">
+```console
+flynn@github:~/projects$ tree
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,javascript,typescript"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,mongodb"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,docker,linux,git"/>
-
-</p>
-
----
-
-## /currently
-
-```yaml
-learning:
-  - AI Engineering
-  - Multi-Agent Systems
-  - Computer Vision
-
-building:
-  - Local AI Assistant
-  - Smart IoT Projects
-  - Modern Portfolio
-
-reading:
-  - Designing Data-Intensive Applications
+projects
+│
+├── 🤖 local-ai
+│   └── Offline AI assistant using Ollama
+│
+├── 🌊 smart-sea-buoy
+│   └── AI-powered maritime monitoring
+│
+├── ⚡ automation
+│   └── Productivity tools in Python
+│
+└── 🌐 portfolio
+    └── Modern personal website
 ```
 
 ---
 
-## /projects
+## ~/status
 
-| Project | Description |
-|---------|-------------|
-| 🤖 Local AI | Offline assistant powered by Ollama |
-| 🌊 Smart Sea Buoy | AI-enabled maritime monitoring |
-| ⚡ Automation | Python tools for productivity |
-| 🎨 Portfolio | Interactive personal website |
+```console
+$ systemctl status flynn
 
----
+● flynn.service
 
-## /analytics
+Status      : Online
 
-<p align="center">
+Currently   : Building Local AI
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent&hide_border=true"/>
+Learning    : Multi-Agent Systems
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true"/>
+Coffee      : ████████████ 100%
 
-</p>
+Sleep       : ██░░░░░░░░░░ 20%
 
-<p align="center">
-
-<img width="98%" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=transparent&hide_border=true"/>
-
-</p>
+Motivation  : ██████████░░ 90%
+```
 
 ---
 
-## /activity
+## ~/github
+
+<p align="center">
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&theme=transparent&hide_border=true&show_icons=true"/>
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true"/>
+
+</p>
+
+---
+
+## ~/activity
 
 <p align="center">
 
@@ -114,16 +107,24 @@ reading:
 
 ---
 
-## /philosophy
+## ~/contact
 
-> Design with intention.  
-> Build with curiosity.  
-> Learn continuously.
+```console
+$ cat contact.txt
+
+GitHub     github.com/YOUR_USERNAME
+
+LinkedIn   linkedin.com/in/YOUR_LINKEDIN
+
+Email      hello@example.com
+```
 
 ---
 
-<div align="center">
+```console
+flynn@github:~$ exit
 
-#### Thanks for visiting.
+logout
 
-</div>
+Thanks for stopping by :)
+```
