@@ -2,77 +2,128 @@
 
 # Flynn Maxwel D
 
-Learning how systems work.  
-Designing how they feel.
+### Building intelligent systems with thoughtful design.
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=500&lines=AI+%26+Machine+Learning;Building+Local+AI;Full+Stack+Developer;Always+Learning"/>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=520&lines=Artificial+Intelligence;Machine+Learning;Local+LLMs;Full+Stack+Development;Always+Building."/>
+
+<br>
+
+<p>
+<img src="https://img.shields.io/badge/AI%20Engineer-181717?style=flat-square">
+<img src="https://img.shields.io/badge/Open%20Source-181717?style=flat-square">
+<img src="https://img.shields.io/badge/India-181717?style=flat-square">
+</p>
 
 </div>
 
 ---
 
-### About
+## /
 
 ```txt
-Name      Flynn Maxwel D
+Name        Flynn Maxwel D
 
-Role      Computer Science Student
+Role        Computer Science Student
 
-Focus     Artificial Intelligence
-          Machine Learning
-          Local LLMs
-          Full Stack
-          IoT
+Speciality  Artificial Intelligence & Machine Learning
 
-Status    Building.
+Building    AI Systems
+            Local LLMs
+            Automation
+            IoT
+            Full Stack Applications
 ```
 
 ---
 
-### Stack
+## /stack
 
-<p>
+<p align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,javascript,react,nodejs,mongodb,linux,git,docker,tensorflow,pytorch"/>
+<img src="https://skillicons.dev/icons?i=python,java,cpp,javascript,typescript"/>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,mongodb"/>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,docker,linux,git"/>
 
 </p>
 
 ---
 
-### Currently
+## /currently
 
-- Building local AI systems
-- Exploring agentic workflows
-- Creating thoughtful software experiences
-- Learning every day
+```yaml
+learning:
+  - AI Engineering
+  - Multi-Agent Systems
+  - Computer Vision
+
+building:
+  - Local AI Assistant
+  - Smart IoT Projects
+  - Modern Portfolio
+
+reading:
+  - Designing Data-Intensive Applications
+```
 
 ---
 
-### Projects
+## /projects
 
-| Name | Description |
-|------|-------------|
-| Local AI | Offline AI powered by Ollama |
-| Smart Sea Buoy | AI-powered maritime monitoring |
-| Portfolio | Modern developer portfolio |
-| Automation | Python productivity tools |
+| Project | Description |
+|---------|-------------|
+| 🤖 Local AI | Offline assistant powered by Ollama |
+| 🌊 Smart Sea Buoy | AI-enabled maritime monitoring |
+| ⚡ Automation | Python tools for productivity |
+| 🎨 Portfolio | Interactive personal website |
+
+---
+
+## /analytics
+
+<p align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent&hide_border=true"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true"/>
+
+</p>
+
+<p align="center">
+
+<img width="98%" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=transparent&hide_border=true"/>
+
+</p>
+
+---
+
+## /activity
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-dark&hide_border=true"/>
+
+</p>
+
+---
+
+## /philosophy
+
+> Design with intention.  
+> Build with curiosity.  
+> Learn continuously.
 
 ---
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&theme=transparent"/>
+#### Thanks for visiting.
 
 </div>
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&theme=transparent"/>
-
-</div>
-
----
-
-> *"Small details create remarkable systems."*
