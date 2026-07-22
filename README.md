@@ -1,61 +1,62 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:111111,100:2f2f2f&text=FLYNN%20MAXWEL&fontColor=ffffff&fontSize=55&animation=fadeIn&fontAlignY=40&desc=Learning%20how%20systems%20work.%20Designing%20how%20they%20feel.&descAlignY=62"/>
+# Flynn Maxwel
+
+### Learning how systems work. Designing how they feel.
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=1500&color=FFFFFF&center=true&vCenter=true&width=700&lines=AI+%26+Machine+Learning;Full+Stack+Developer;Computer+Vision+Enthusiast;UI%2FUX+Designer;Building+Colabro"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=650&lines=Artificial+Intelligence;Computer+Vision;Full+Stack+Developer;UI%2FUX+Designer;Building+Products+People+Remember."/>
-
-<br><br>
-
 <p>
-<img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge&logo=github&labelColor=111111&color=ffffff"/>
-<img src="https://img.shields.io/github/stars/YOUR_USERNAME?style=for-the-badge&logo=github&labelColor=111111&color=ffffff"/>
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=white"/>
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=white"/>
+<img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=flat-square"/>
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME?style=flat-square"/>
 </p>
 
 </div>
 
 ---
 
-# 01 / ABOUT
+## About Me
 
-```txt
+```text
 Computer Science (AI & ML)
 
-I build software that blends
-engineering,
-design,
-and intelligence.
+I enjoy building software that combines
+engineering, design and intelligence.
 
-Minimal by choice.
-Meaningful by design.
+Current Focus
+• AI & Machine Learning
+• Computer Vision
+• Full Stack Development
+• UI/UX Design
 ```
 
 ---
 
-# 02 / CURRENT BUILD
+## Currently Building
 
-## 🚀 COLABRO
+### 🚀 Colabro
 
-> Where Ideas Find Their People.
+> **Where Ideas Find Their People.**
 
-Connecting students, developers and innovators through projects,
-hackathons and collaboration.
+A platform that helps students discover projects,
+find teammates, collaborate and build together.
 
 ---
 
-# 03 / TECH
+## Tech Stack
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=python,react,nextjs,nodejs,typescript,javascript,tailwind,html,css,mongodb,firebase,tensorflow,docker,linux,git,github,vscode&perline=8"/>
+<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,react,nextjs,nodejs,typescript,javascript,tailwind,html,css,mongodb,firebase,docker,linux,git,github,vscode"/>
 
 </p>
 
 ---
 
-# 04 / GITHUB ANALYTICS
+## GitHub Analytics
 
 <p align="center">
 
@@ -67,13 +68,13 @@ hackathons and collaboration.
 
 <p align="center">
 
-<img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true"/>
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true"/>
 
 </p>
 
 ---
 
-# 05 / CONTRIBUTIONS
+## Activity Graph
 
 <p align="center">
 
@@ -83,38 +84,49 @@ hackathons and collaboration.
 
 ---
 
-# 06 / TROPHIES
+## Featured Projects
+
+| Project | Description |
+|---------|-------------|
+| 🚀 Colabro | Student collaboration platform |
+| 👁 Privacy Zone Intrusion Detector | Computer vision security project |
+| 🤖 AI Workspace | AI productivity experiments |
+| 📂 Smart File Organizer | Intelligent file management |
+
+---
+
+## Philosophy
+
+> Great software isn't remembered because it has more features.
+>
+> It's remembered because of how it makes people feel.
+
+---
+
+## Connect
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=flat&no-frame=true&column=4"/>
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://linkedin.com/in/YOUR_USERNAME">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:your@email.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail"/>
+</a>
 
 </p>
 
 ---
 
-# 07 / QUOTE
-
-> Great products aren't remembered for having more features.
->
-> They're remembered for how they make people feel.
-
----
-
 <div align="center">
 
-### Let's build something meaningful.
+### Thanks for stopping by 👋
 
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=black"/>
-</a>
-
-<a href="https://linkedin.com/in/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/LinkedIn-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=black"/>
-</a>
-
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Email-FFFFFF?style=for-the-badge&logo=gmail&logoColor=black"/>
-</a>
+*"Stay curious. Build beautifully."*
 
 </div>
