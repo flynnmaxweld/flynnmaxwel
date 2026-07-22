@@ -1,226 +1,144 @@
-<!-- ===================== HERO ===================== -->
+```bash
+flynn@github:~$ neofetch
 
-<div align="center">
+                   -`
+                  .o+`
+                 `ooo/
+                `+oooo:
+               `+oooooo:
+               -+oooooo+:
+             `/:-:++oooo+:
+            `/++++/+++++++:
+           `/++++++++++++++:
+          `/+++ooooooooooooo/`
+         ./ooosssso++osssssso+`
+        .oossssso-````/ossssss+`
+       -osssssso.      :ssssssso.
+      :osssssss/        osssso+++.
+     /ossssssss/        +ssssooo/-
+   `/ossssso+/:-        -:/+osssso+-
+  `+sso+:-`                 `.-/+oso:
 
-# 𝐅𝐋𝐘𝐍𝐍 𝐌𝐀𝐗𝐖𝐄𝐋
-
-### *Learning how systems work. Designing how they feel.*
-
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&pause=1500&center=true&vCenter=true&width=700&color=FFFFFF&lines=Artificial+Intelligence+%26+Machine+Learning;Full+Stack+Developer;Computer+Vision+Explorer;Building+Colabro"/>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=flynnmaxweld&style=flat-square&color=white"/>
-
-<img src="https://img.shields.io/github/followers/flynnmaxweld?style=flat-square"/>
-
-<img src="https://img.shields.io/github/stars/flynnmaxweld?style=flat-square"/>
-
-</div>
-
----
-
-# PROFILE
-
-```txt
-Name      :: Flynn Maxwel
-Role      :: AI & Machine Learning Student
-Location  :: India
-Focus     :: Building meaningful software
-Status    :: Building Colabro 🚀
+OS          : Arch Linux
+Host        : Flynn Maxwel
+Kernel      : AI-ML
+Shell       : bash
+Editor      : VS Code
+WM          : GitHub
+Theme       : Black & White
+Project     : Colabro
 ```
 
 ---
 
-# ABOUT
+```bash
+flynn@github:~$ whoami
 
-I enjoy creating products where engineering,
-artificial intelligence and thoughtful design come
-together.
+Flynn Maxwel
 
-I believe software should feel simple,
-beautiful and useful.
+Artificial Intelligence Engineer
+Full Stack Developer
+Computer Vision Explorer
 
----
-
-# CURRENT
-
-```txt
-🚀 Building     :: Colabro
-
-📚 Learning     :: Computer Vision
-
-🤖 Exploring    :: LLM Agents
-
-🎯 Goal         :: Build products used worldwide
+"Learning how systems work.
+ Designing how they feel."
 ```
 
 ---
 
-# TECH STACK
+```bash
+flynn@github:~$ ls projects/
+
+📁 Colabro
+📁 Privacy-Zone-Detector
+📁 AI-Workspace
+📁 Smart-File-Organizer
+📁 Portfolio
+```
+
+---
+
+```bash
+flynn@github:~$ tree skills
+
+skills
+├── AI
+│   ├── TensorFlow
+│   ├── OpenCV
+│   └── PyTorch
+├── Frontend
+│   ├── React
+│   ├── Next.js
+│   └── Tailwind
+├── Backend
+│   ├── Node.js
+│   └── Firebase
+├── Database
+│   └── MongoDB
+└── DevOps
+    ├── Docker
+    ├── Git
+    └── Linux
+```
+
+---
+
+```bash
+flynn@github:~$ uptime
+
+Years Coding      : 3+
+
+Repositories      : ████████████
+
+AI Projects       : ██████████
+
+Open Source       : ████████
+
+Coffee            : ∞
+```
+
+---
+
+```bash
+flynn@github:~$ cat currently_doing.txt
+
+> Building Colabro
+> Learning LLM Agents
+> Computer Vision Research
+> UI/UX Design
+```
+
+---
+
+```bash
+flynn@github:~$ fortune
+
+"Build products people remember,
+not software people forget."
+```
+
+---
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?theme=light&i=python,react,nextjs,nodejs,typescript,javascript,html,css,tailwind,tensorflow,opencv,mongodb,firebase,docker,linux,git,github,vscode,figma"/>
+<img src="https://github-readme-stats.vercel.app/api?username=flynnmaxweld&theme=transparent&hide_border=true"/>
+
+<img src="https://streak-stats.demolab.com?user=flynnmaxweld&theme=transparent&hide_border=true"/>
 
 </p>
 
 ---
 
-# TOOLBOX
+```bash
+flynn@github:~$ exit
 
-| Category | Tools |
-|----------|-------|
-| Languages | Python • JavaScript • TypeScript |
-| Frontend | React • Next.js • Tailwind |
-| Backend | Node.js • Firebase |
-| AI | TensorFlow • OpenCV |
-| Database | MongoDB • Firebase |
-| Design | Figma |
-| OS | Windows • Linux |
-| Version Control | Git • GitHub |
+logout
+Saving session...
+Connection to github closed.
 
----
-
-# FEATURED PROJECTS
-
-### 🚀 Colabro
-
-> Where Ideas Find Their People.
-
-Connecting students,
-developers and builders worldwide.
-
----
-
-### 👁 Privacy Zone Detector
-
-AI powered intrusion detection using
-Computer Vision.
-
----
-
-### 📂 Smart File Organizer
-
-Automatically organizes files
-using intelligent rules.
-
----
-
-### 🤖 AI Workspace
-
-Experiments with LLMs,
-automation and productivity.
-
----
-
-# GITHUB
-
-<p align="center">
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=flynnmaxweld&show_icons=true&theme=transparent&hide_border=true"/>
-
-<img width="48%" src="https://streak-stats.demolab.com?user=flynnmaxweld&theme=transparent&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=flynnmaxweld&layout=compact&theme=transparent&hide_border=true"/>
-
-</p>
-
----
-
-# ACTIVITY
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=flynnmaxweld&theme=github-compact&hide_border=true"/>
-
-</p>
-
----
-
-# EXPERIENCE
-
-```text
-2024 ─ Started Full Stack Development
-
-2025 ─ AI & ML Projects
-
-2026 ─ Building Colabro
-
-Future ─ Startup Founder
+███████████████████████████████████████
+█                                     █
+█     LESS. BETTER. TIMELESS.         █
+█                                     █
+███████████████████████████████████████
 ```
-
----
-
-# CURRENTLY LEARNING
-
-```text
-Python          ██████████
-
-React           █████████░
-
-TensorFlow      ████████░░
-
-OpenCV          ███████░░░
-
-Docker          ██████░░░░
-```
-
----
-
-# DEV SETUP
-
-```text
-OS          Windows 11
-
-Editor      VS Code
-
-Terminal    PowerShell
-
-Browser     Chrome
-
-Laptop      ASUS Vivobook Pro OLED
-```
-
----
-
-# PHILOSOPHY
-
-> Build products people remember,
-> not software people forget.
-
----
-
-# CONNECT
-
-<p align="center">
-
-<a href="https://github.com/flynnmaxweld">
-<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="#">
-<img src="https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="#">
-<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=vercel"/>
-</a>
-
-<a href="mailto:your@email.com">
-<img src="https://img.shields.io/badge/Email-black?style=for-the-badge&logo=gmail"/>
-</a>
-
-</p>
-
----
-
-<div align="center">
-
-### "Less. Better. Timeless."
-
-</div>
