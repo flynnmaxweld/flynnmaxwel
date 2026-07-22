@@ -1,130 +1,155 @@
 <div align="center">
 
-# ~/flynn
+# Flynn Maxwel
 
-```console
-flynn@github:~$ whoami
+### Learning how systems work. Designing how they feel.
 
-Flynn Maxwel D
+Building products where engineering meets design.
 
-Computer Science Student
-Artificial Intelligence & Machine Learning
-
-Building intelligent systems that solve real problems.
-```
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=500&lines=Local+AI;Machine+Learning;Full+Stack;Always+Learning"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=AI+%7C+Machine+Learning;Full+Stack+Developer;Computer+Vision+Enthusiast;UI%2FUX+Designer;Always+Building." />
 
 </div>
 
 ---
 
-## ~/stack
+## About
 
-```console
-flynn@github:~$ ls tech/
+I'm a Computer Science student specializing in **Artificial Intelligence & Machine Learning**.
 
+I enjoy creating software that solves real problems with thoughtful design and clean engineering.
+
+Current interests include:
+
+- Artificial Intelligence
+- Computer Vision
+- Full Stack Development
+- UI/UX Design
+- IoT
+- Open Source
+
+---
+
+## Currently Building
+
+🚀 **Colabro**
+
+> *Where Ideas Find Their People.*
+
+A platform helping students discover projects, find teammates, collaborate, and build together.
+
+---
+
+## Tech Stack
+
+### Languages
+
+```
 Python
-Java
-C++
 JavaScript
 TypeScript
+C
+Java
+SQL
+```
+
+### Frontend
+
+```
 React
+Next.js
+HTML
+CSS
+Tailwind CSS
+Framer Motion
+```
+
+### Backend
+
+```
 Node.js
+Express
+Firebase
+MongoDB
+```
+
+### AI / ML
+
+```
 TensorFlow
-PyTorch
-Docker
-Linux
+OpenCV
+NumPy
+Pandas
+Scikit-learn
+```
+
+### Tools
+
+```
 Git
-Arduino
+GitHub
+Linux
+VS Code
+Docker
+Figma
 ```
 
 ---
 
-## ~/projects
+## Projects
 
-```console
-flynn@github:~/projects$ tree
-
-projects
-│
-├── 🤖 local-ai
-│   └── Offline AI assistant using Ollama
-│
-├── 🌊 smart-sea-buoy
-│   └── AI-powered maritime monitoring
-│
-├── ⚡ automation
-│   └── Productivity tools in Python
-│
-└── 🌐 portfolio
-    └── Modern personal website
-```
+- Colabro
+- Privacy Zone Intrusion Detector
+- Smart File Organizer
+- AI Workspace
+- Computer Vision Experiments
+- Machine Learning Models
 
 ---
 
-## ~/status
+## Philosophy
 
-```console
-$ systemctl status flynn
-
-● flynn.service
-
-Status      : Online
-
-Currently   : Building Local AI
-
-Learning    : Multi-Agent Systems
-
-Coffee      : ████████████ 100%
-
-Sleep       : ██░░░░░░░░░░ 20%
-
-Motivation  : ██████████░░ 90%
-```
+> Great software isn't built by writing more code.
+>
+> It's built by understanding people first.
 
 ---
 
-## ~/github
+## GitHub Stats
 
 <p align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&theme=transparent&hide_border=true&show_icons=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent&hide_border=true"/>
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true"/>
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=transparent&hide_border=true"/>
 
 </p>
 
 ---
 
-## ~/activity
+## Most Used Languages
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-dark&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=transparent&hide_border=true"/>
 
 </p>
 
 ---
 
-## ~/contact
+## Connect
 
-```console
-$ cat contact.txt
+GitHub → https://github.com/YOUR_USERNAME
 
-GitHub     github.com/YOUR_USERNAME
+LinkedIn → https://linkedin.com/in/YOUR_USERNAME
 
-LinkedIn   linkedin.com/in/YOUR_LINKEDIN
+Portfolio → https://YOUR_WEBSITE
 
-Email      hello@example.com
-```
+Email → YOUR_EMAIL
 
 ---
 
-```console
-flynn@github:~$ exit
+<div align="center">
 
-logout
+*"Stay curious. Build beautifully."*
 
-Thanks for stopping by :)
-```
+</div>
