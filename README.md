@@ -93,3 +93,76 @@ and opportunities.
 > *"Stay curious. Build beautifully."*
 
 </p>
+
+---
+
+# Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,react,nextjs,nodejs,typescript,javascript,tailwind,html,css,mongodb,firebase,mysql,docker,linux,git,github,vscode,figma&perline=7"/>
+
+</div>
+
+---
+
+# Currently Learning
+
+<div align="center">
+
+| AI | Development | Design |
+|:--:|:-----------:|:------:|
+| Machine Learning | Next.js | UI/UX |
+| Deep Learning | TypeScript | Figma |
+| Computer Vision | Firebase | Motion Design |
+| LLMs | Docker | Design Systems |
+
+</div>
+
+---
+
+# Toolbox
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/OS-Windows_11-111111?style=for-the-badge&logo=windows"/>
+
+<img src="https://img.shields.io/badge/Linux-Ubuntu-111111?style=for-the-badge&logo=ubuntu"/>
+
+<img src="https://img.shields.io/badge/Editor-VS_Code-111111?style=for-the-badge&logo=visualstudiocode"/>
+
+<img src="https://img.shields.io/badge/Design-Figma-111111?style=for-the-badge&logo=figma"/>
+
+<img src="https://img.shields.io/badge/Version_Control-Git-111111?style=for-the-badge&logo=git"/>
+
+</div>
+
+---
+
+# Featured Projects
+
+<table>
+
+<tr>
+
+<td width="50%">
+
+### 🚀 Colabro
+
+Where Ideas Find Their People.
+
+A platform helping students discover
+projects, teammates and hackathons.
+
+Tech
+
+- React
+- Firebase
+- TypeScript
+- Tailwind CSS
+
+</td>
+
+<td width="50%">
+
+### 👁 Privacy Zone
