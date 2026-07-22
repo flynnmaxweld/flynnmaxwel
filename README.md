@@ -1,115 +1,75 @@
 <div align="center">
 
-# Flynn Maxwel
+# FLYNN MAXWEL
 
-### Learning how systems work. Designing how they feel.
+```
+Learning how systems work.
+Designing how they feel.
+```
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&pause=1200&color=FFFFFF&center=true&vCenter=true&width=650&lines=Artificial+Intelligence+Engineer;Full+Stack+Developer;Computer+Vision+Enthusiast;Building+Colabro"/>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-<p>
-<img src="https://komarev.com/ghpvc/?username=flynnmaxweld&style=flat-square&color=white"/>
-<img src="https://img.shields.io/github/followers/flynnmaxweld?style=flat-square"/>
-</p>
+`AI Engineer` • `Builder` • `Designer`
+
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&pause=1500&center=true&vCenter=true&color=FFFFFF&background=00000000&width=650&lines=Building+Colabro;Artificial+Intelligence;Computer+Vision;Full+Stack+Development"/>
 
 </div>
 
 ---
 
-## About
+## PROFILE
 
-```text
-Artificial Intelligence & Machine Learning Student
-
-I enjoy building products where
-engineering meets thoughtful design.
-
-Currently focused on
-• Artificial Intelligence
-• Computer Vision
-• Full Stack Development
-• UI / UX Design
+```txt
+Name      :: Flynn Maxwel
+Location  :: India
+Role      :: AI & ML Student
+Focus     :: Building meaningful software
 ```
 
 ---
 
-## Current Project
+## SELECTED WORK
 
-### 🚀 Colabro
+◼ Colabro
 
 > Where Ideas Find Their People.
 
-Connecting students with projects,
-teammates and opportunities.
+◼ Privacy Zone Intrusion Detector
+
+◼ AI Workspace
+
+◼ Smart File Organizer
 
 ---
 
-## Tech Stack
+## TOOLBOX
+
+<p align="center">
+<img src="https://skillicons.dev/icons?theme=light&i=python,react,nextjs,nodejs,tensorflow,opencv,docker,linux,git,github,vscode,figma"/>
+</p>
+
+---
+
+## GITHUB
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,react,nextjs,nodejs,typescript,javascript,tailwind,html,css,mongodb,firebase,docker,linux,git,github,vscode,figma&perline=6"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=flynnmaxweld&show_icons=true&hide_border=true&theme=transparent"/>
+
+<img width="49%" src="https://streak-stats.demolab.com?user=flynnmaxweld&theme=transparent&hide_border=true"/>
 
 </p>
 
 ---
 
-## GitHub Analytics
+## PHILOSOPHY
 
-<p align="center">
+> "Build things that people remember, not just software that works."
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=flynnmaxweld&show_icons=true&theme=transparent&hide_border=true"/>
-
-<img width="48%" src="https://streak-stats.demolab.com?user=flynnmaxweld&theme=transparent&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=flynnmaxweld&layout=compact&theme=transparent&hide_border=true"/>
-
-</p>
-
----
-
-## Featured Projects
-
-| Project | Description |
-|---------|-------------|
-| 🚀 Colabro | Student collaboration platform |
-| 👁 Privacy Zone Detector | Computer vision security |
-| 🤖 AI Workspace | AI experiments |
-| 📂 Smart File Organizer | Intelligent file management |
-
----
-
-## Philosophy
-
-> *Build products that people remember, not just software that works.*
-
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 <div align="center">
 
-### Connect
-
-<a href="https://github.com/flynnmaxweld">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="mailto:your@email.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail"/>
-</a>
+**Less. Better. Timeless.**
 
 </div>
-
----
-
-<p align="center">
-
-*"Less, but better."*
-
-</p>
