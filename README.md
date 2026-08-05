@@ -2,12 +2,7 @@
 
 <h3><code>flynnmaxweld@github ~ $ whoami</code></h3>
 
-<table>
-<tr>
-<td valign="top"><img src="./assets/portrait.svg" width="370" alt="Flynn Maxwel D — ASCII portrait" /></td>
-<td valign="middle" align="center" width="490"><code>FLYNN</code></td>
-</tr>
-</table>
+<img src="./assets/ide-mockup.svg" width="860" alt="Flynn Maxwel D — IDE Mockup" />
 
 <br>
 <br>

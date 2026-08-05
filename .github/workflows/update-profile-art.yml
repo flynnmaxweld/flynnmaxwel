@@ -34,4 +34,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile art [skip ci]"
-          file_pattern: "assets/contrib-heatmap.svg assets/wordmark.svg README.md"
+          file_pattern: "assets/contrib-heatmap.svg assets/ide-mockup.svg README.md"
