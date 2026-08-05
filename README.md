@@ -1,65 +1,30 @@
-<div align="center">
+# Flynn Maxwel &mdash; Vibecoder
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=1200&color=7C5CFC&center=true&vCenter=true&width=560&lines=Flynn+Maxwel;Vibecoder+%E2%80%94+New+Delhi;Designing+intelligent+applications;Automating+the+boring+parts" alt="Typing SVG" />
+Designing, building, and automating intelligent applications from New Delhi, India.
 
-<br>
-
-`status` → shipping something new · `based in` New Delhi, India
-
-</div>
-
-<br>
-
-I build software at the point where an interface meets a model — mostly web apps with something intelligent running underneath. Less interested in the demo, more interested in the thing that keeps working after the demo ends.
-
-<br>
-
-<table align="center">
-<tr>
-<td valign="top" width="50%">
-
-**stack**
-
-```
-languages   python · javascript
-frontend    react · next.js
-runtime     node.js
-data        sql · docker
-```
-
-</td>
-<td valign="top" width="50%">
-
-**works**
-
-```
-01  flynnmaxweld.github.io
-    → portfolio & personal space
-
-02  github.com/flynnmaxweld
-    → open-source repos & experiments
-```
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<div align="center">
-
-[`portfolio`](https://flynnmaxweld.github.io) &nbsp;·&nbsp; [`github`](https://github.com/flynnmaxweld) &nbsp;·&nbsp; [`linkedin`](https://linkedin.com/in/flynnmaxwel)
-
-</div>
-
-<br>
+---
 
 <div align="center">
 <img src="./assets/contrib-heatmap.svg" width="860" alt="Flynn Maxwel's GitHub contributions" />
 </div>
 
-<br>
+---
 
-<div align="center">
-<sub>⌁ currently building, always shipping</sub>
-</div>
+### 🛠️ Tech Stack &amp; Skills
+
+| Category | Technologies |
+| :--- | :--- |
+| **Languages &amp; Core** | ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) |
+| **Frameworks &amp; Web** | ![](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white) ![](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) |
+| **Databases &amp; Systems** | ![](https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=sqlite&logoColor=white) ![](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+
+---
+
+### 📂 /works
+
+- [**flynnmaxweld.github.io**](https://flynnmaxweld.github.io) &mdash; Personal Space &amp; Portfolio
+- [**github.com/flynnmaxweld**](https://github.com/flynnmaxweld) &mdash; Open Source Repositories &amp; Experiments
+
+### 🔗 /connect
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=github&logoColor=white)](https://flynnmaxweld.github.io) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/flynnmaxwel)
