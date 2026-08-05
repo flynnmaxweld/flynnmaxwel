@@ -1,8 +1,8 @@
 """
-Generate a customized, ultra-minimalist Swiss-style GitHub profile README.
+Generate a customized, minimalist Swiss-style GitHub profile README.
 Includes:
-  1. Animated GitHub contribution heatmap generator (fetching live data via scraping)
-  2. Editorial minimalist README.md layout
+  1. Animated GitHub contribution heatmap generator (fetching live data from Jan 2026 to today)
+  2. Editorial minimalist README.md layout with badges and a filling grid
   3. GitHub Actions workflow to auto-refresh the profile daily
 """
 import os
@@ -25,13 +25,13 @@ with open(CONFIG_PATH, "r", encoding="utf-8") as f:
 
 # Profile Info
 USERNAME = config.get("github_username", "username")
-DISPLAY_NAME = config.get("display_name", "YOUR NAME")
+DISPLAY_NAME = "Flynn Maxwel" # Set as requested
 TITLE = config.get("title", "Fullstack Developer · AI Enthusiast")
 SKILLS = config.get("skills", ["Python", "JavaScript", "React"])
 SOCIALS = config.get("social_links", [])
 
 # -----------------------------------------------------------------------------
-# 1. Live Contribution Heatmap Graph SVG Generator (Scraping)
+# 1. Live Contribution Heatmap Graph SVG Generator (Scraping & Date Filtering)
 # -----------------------------------------------------------------------------
 def generate_contributions():
     url = f"https://github.com/users/{USERNAME}/contributions"
@@ -52,7 +52,7 @@ def generate_contributions():
         
     soup = BeautifulSoup(html_text, "html.parser")
     
-    # Get total contributions
+    # Get total contributions from raw page to display
     h2 = soup.find("h2", class_=lambda c: c and "f4" in c and "text-normal" in c)
     if not h2:
         h2 = soup.find(id="js-contribution-activity-description")
@@ -69,22 +69,52 @@ def generate_contributions():
         print("No contribution cells found in scraped page. Skipping contributions graphic.")
         return False
         
-    contribs = []
+    raw_days = []
     for td in cells:
         dt = td.get("data-date")
         lvl = td.get("data-level")
         if dt and lvl is not None:
-            contribs.append({
+            raw_days.append({
                 "date": dt,
                 "level": int(lvl)
             })
             
-    if not contribs:
+    if not raw_days:
         print("No contribution records parsed. Skipping contributions graphic.")
         return False
         
-    # Sort contributions by date
-    contribs.sort(key=lambda x: x["date"])
+    raw_days.sort(key=lambda x: x["date"])
+    
+    # Filter: Show from current year Jan 2026 to live
+    # Find the index of the first day of 2026
+    first_2026_idx = -1
+    for idx, day in enumerate(raw_days):
+        if day["date"] >= "2026-01-01":
+            first_2026_idx = idx
+            break
+            
+    if first_2026_idx == -1:
+        # Fallback if no 2026 data yet
+        print("No 2026 data found yet. Using all parsed days.")
+        contribs = raw_days
+    else:
+        # To align grid rows to Sunday-Saturday, find the Sunday of that week (index must be multiple of 7)
+        start_idx = (first_2026_idx // 7) * 7
+        contribs = raw_days[start_idx:]
+        
+    if not contribs:
+        contribs = raw_days
+        
+    # Re-calculate total contributions in this filtered range
+    filtered_total = sum(c["level"] for c in contribs) # approximate level counts, or fetch total
+    # Let's count days that have levels > 0 for a more accurate count
+    # But since we don't have exact counts, we can show total contributions in the year 2026
+    # Or just count the parsed counts:
+    # Actually, we can fetch the exact count from the scraped page for the year 2026 or estimate.
+    # Let's just calculate how many contributions are in 2026 by searching for cells >= 2026-01-01
+    # and reading the tooltip counts if we parsed them.
+    # Note: we scraped cells, but counts are tooltips. We can count the sum of cells levels as activity.
+    # To keep it standard, let's say "Contributions since Jan 2026"
     
     CELL, GAP, RAD, LEFT, TOP = 13, 3, 2.5, 34, 24
     COLORS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
@@ -136,7 +166,7 @@ def generate_contributions():
 <rect width="{W}" height="{H}" fill="none"/>
 {"".join(labels)}
 {"".join(rects)}
-<text class="total" x="{LEFT}" y="{H-6}">{total:,} contributions in the last year</text>
+<text class="total" x="{LEFT}" y="{H-6}">Live contributions since Jan 2026</text>
 </svg>'''
 
     out_path = os.path.join("assets", "contrib-heatmap.svg")
@@ -146,50 +176,77 @@ def generate_contributions():
     return True
 
 # -----------------------------------------------------------------------------
-# 2. Swiss/Editorial Minimalist README.md Generator
+# 2. Swiss/Editorial Minimalist README.md Generator (Badges & Grid Icons)
 # -----------------------------------------------------------------------------
 def generate_readme(has_contrib):
     md = []
     
-    # Header Signature
-    md.append(f'# {DISPLAY_NAME} &mdash; Fullstack &amp; AI Builder\n\n')
+    # Custom requested title
+    md.append(f'# Flynn Maxwel &mdash; Vibecoder\n\n')
     
     # Editorial Bio sentence
     md.append('Designing, building, and automating intelligent applications from New Delhi, India.\n\n')
-    
-    # Minimalist inline dot-separated tech stack
-    stack_line = " &middot; ".join(SKILLS)
-    md.append(f'`{stack_line}`\n\n')
     
     md.append('---\n\n')
     
     # Center section for Contribution Heatmap
     if has_contrib:
         md.append('<div align="center">\n')
-        md.append(f'<img src="./assets/contrib-heatmap.svg" width="860" alt="{DISPLAY_NAME}\'s GitHub contributions" />\n')
+        md.append(f'<img src="./assets/contrib-heatmap.svg" width="860" alt="Flynn Maxwel\'s GitHub contributions" />\n')
         md.append('</div>\n\n')
         md.append('---\n\n')
         
-    # /works index section
-    md.append('### /works\n\n')
-    # Loop through social portfolio if available or generate default clean links
+    # Tech Stack & Skills with Icons
+    md.append('### 🛠️ Tech Stack &amp; Skills\n\n')
+    md.append('| Category | Technologies |\n')
+    md.append('| :--- | :--- |\n')
+    
+    # Build clean shield icon badges
+    langs = ' '.join([
+        '![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)',
+        '![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)',
+        '![](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)'
+    ])
+    frameworks = ' '.join([
+        '![](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white)',
+        '![](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)'
+    ])
+    databases = ' '.join([
+        '![](https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=sqlite&logoColor=white)',
+        '![](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)'
+    ])
+    
+    md.append(f'| **Languages &amp; Core** | {langs} |\n')
+    md.append(f'| **Frameworks &amp; Web** | {frameworks} |\n')
+    md.append(f'| **Databases &amp; Systems** | {databases} |\n\n')
+    
+    md.append('---\n\n')
+    
+    # /works index section with emojis
+    md.append('### 📂 /works\n\n')
     portfolio_url = None
     for s in SOCIALS:
         if s.get("label") == "Portfolio":
             portfolio_url = s.get("url")
             
     if portfolio_url:
-        md.append(f'- [{portfolio_url.replace("https://", "").replace("http://", "")}]({portfolio_url}) &mdash; Personal Space\n')
-    md.append(f'- [github.com/{USERNAME}](https://github.com/{USERNAME}) &mdash; Open Source Repositories\n\n')
+        md.append(f'- [**{portfolio_url.replace("https://", "").replace("http://", "")}**]({portfolio_url}) &mdash; Personal Space &amp; Portfolio\n')
+    md.append(f'- [**github.com/{USERNAME}**](https://github.com/{USERNAME}) &mdash; Open Source Repositories &amp; Experiments\n\n')
     
-    # /connect section
-    md.append('### /connect\n\n')
+    # /connect section with icons
+    md.append('### 🔗 /connect\n\n')
     connects = []
     for s in SOCIALS:
         label = s.get("label", "Link")
         url = s.get("url", "#")
-        connects.append(f'[{label}]({url})')
-    md.append(" &nbsp;/&nbsp; ".join(connects))
+        logo = s.get("logo", "").lower()
+        color = s.get("color", "0d1117")
+        
+        logo_param = f"&logo={logo}" if logo else ""
+        badge = f'[![{label}](https://img.shields.io/badge/{label}-{color}?style=flat-square{logo_param}&logoColor=white)]({url})'
+        connects.append(badge)
+        
+    md.append(" &nbsp; ".join(connects))
     md.append('\n')
     
     with open("README.md", "w", encoding="utf-8") as f:
