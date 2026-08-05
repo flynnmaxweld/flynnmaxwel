@@ -1,6 +1,7 @@
 {
-  "github_username": "YOUR_USERNAME",
-  "display_name": "YOUR NAME",
+  "github_username": "flynnmaxweld",
+  "display_name": "Flynn Maxwel D",
+  "wordmark_text": "FLYNN",
   "title": "Fullstack Developer · AI Builder · Instructor",
   "photo_path": "avatar.png",
   "skills": [
@@ -14,24 +15,17 @@
   "social_links": [
     {
       "label": "Portfolio",
-      "value": "yourportfolio.com",
-      "url": "https://yourportfolio.com",
+      "value": "flynnmaxweld.github.io",
+      "url": "https://flynnmaxweld.github.io",
       "color": "0d1117",
-      "logo": "vercel"
+      "logo": "github"
     },
     {
       "label": "LinkedIn",
-      "value": "yourusername",
-      "url": "https://linkedin.com/in/yourusername",
+      "value": "flynnmaxwel",
+      "url": "https://linkedin.com/in/flynnmaxwel",
       "color": "0A66C2",
       "logo": "linkedin"
-    },
-    {
-      "label": "Twitter",
-      "value": "yourusername",
-      "url": "https://twitter.com/yourusername",
-      "color": "1DA1F2",
-      "logo": "twitter"
     }
   ]
 }

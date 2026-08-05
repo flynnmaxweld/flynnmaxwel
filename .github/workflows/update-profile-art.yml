@@ -1,0 +1,37 @@
+name: Update Profile Art
+
+# Refreshes the contribution graph SVG daily from real data.
+# Runs daily, plus whenever you push to main, plus on-demand.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # ~06:17 UTC every day
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pillow numpy beautifulsoup4 requests
+
+      - name: Render dynamic assets
+        run: python make_profile.py
+
+      - name: Commit updated art
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "assets/contrib-heatmap.svg assets/wordmark.svg README.md"

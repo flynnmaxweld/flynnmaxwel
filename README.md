@@ -1,16 +1,25 @@
 <div align="center">
-<h3><code>YOUR_USERNAME@github ~ $ whoami</code></h3>
+
+<h3><code>flynnmaxweld@github ~ $ whoami</code></h3>
 
 <table>
 <tr>
-<td valign="top"><img src="./assets/portrait.svg" width="370" alt="YOUR NAME � ASCII portrait" /></td>
-<td valign="top"><img src="./assets/wordmark.svg" width="490" alt="YOUR � 3D ASCII wordmark" /></td>
+<td valign="top"><img src="./assets/portrait.svg" width="370" alt="Flynn Maxwel D — ASCII portrait" /></td>
+<td valign="top"><img src="./assets/wordmark.svg" width="490" alt="FLYNN — 3D ASCII wordmark" /></td>
 </tr>
 </table>
 
 <br>
 <br>
-<h3><code>YOUR_USERNAME@github ~ $ ./skills.sh</code></h3>
+
+<h3><code>flynnmaxweld@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./assets/contrib-heatmap.svg" width="860" alt="Flynn Maxwel D's GitHub contribution graph — auto-refreshed daily" />
+
+<br>
+<br>
+
+<h3><code>flynnmaxweld@github ~ $ ./skills.sh</code></h3>
 
 <p><b>Fullstack Developer · AI Builder · Instructor</b></p>
 
@@ -18,11 +27,11 @@
 
 <br>
 <br>
-<h3><code>YOUR_USERNAME@github ~ $ ./links.sh</code></h3>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-yourportfolio.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://yourportfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-yourusername-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
-[![Twitter](https://img.shields.io/badge/Twitter-yourusername-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
+<h3><code>flynnmaxweld@github ~ $ ./links.sh</code></h3>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-flynnmaxweld.github.io-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://flynnmaxweld.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-flynnmaxwel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/flynnmaxwel)
 
 <br>
 </div>
