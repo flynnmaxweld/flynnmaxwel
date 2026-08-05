@@ -5,7 +5,7 @@
 <table>
 <tr>
 <td valign="top"><img src="./assets/portrait.svg" width="370" alt="Flynn Maxwel D — ASCII portrait" /></td>
-<td valign="top"><img src="./assets/wordmark.svg" width="490" alt="FLYNN — 3D ASCII wordmark" /></td>
+<td valign="middle" align="center" width="490"><code>FLYNN</code></td>
 </tr>
 </table>
 
