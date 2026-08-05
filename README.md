@@ -19,6 +19,17 @@
 <br>
 <br>
 
+<h3><code>flynnmaxweld@github ~ $ ./stats.sh</code></h3>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=flynnmaxweld&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=7d8590&text_color=c9d1d9&icon_color=58a6ff" alt="Flynn Maxwel D's GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=flynnmaxweld&layout=compact&bg_color=0d1117&border_color=30363d&title_color=7d8590&text_color=c9d1d9&icon_color=58a6ff" alt="Flynn Maxwel D's Top Languages" />
+</p>
+
+<br>
+<br>
+
 <h3><code>flynnmaxweld@github ~ $ ./skills.sh</code></h3>
 
 <p><b>Fullstack Developer · AI Builder · Instructor</b></p>

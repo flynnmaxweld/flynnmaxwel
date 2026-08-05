@@ -321,8 +321,22 @@ def generate_portrait():
     CANVAS_W = ART_W + PAD * 2
     CANVAS_H = TITLEBAR_H + ART_H + STATUS_H + PAD
     
-    # Load image and apply enhancements using pure PIL
-    im = Image.open(PHOTO_PATH).convert("L")
+    # Load image and apply color-based chroma key to remove the red wall background
+    im_raw = Image.open(PHOTO_PATH).convert("RGB")
+    W, H = im_raw.size
+    px_raw = im_raw.load()
+    
+    # Create a copy and threshold red background pixels to pure white
+    im_clean = im_raw.copy()
+    for y in range(H):
+        for x in range(W):
+            r, g, b = px_raw[x, y]
+            # Detect the red wall background (strong red channel compared to green/blue)
+            if r - g > 65 and r - b > 65 and r > 100:
+                im_clean.putpixel((x, y), (255, 255, 255))
+                
+    # Convert to grayscale and apply standard enhancements
+    im = im_clean.convert("L")
     im = ImageEnhance.Brightness(im).enhance(BRIGHTNESS)
     im = ImageEnhance.Contrast(im).enhance(CONTRAST)
     im = im.resize((COLS, ROWS), Image.Resampling.LANCZOS)
@@ -549,6 +563,15 @@ def generate_readme(has_portrait, has_wordmark, has_contrib):
         md.append(f'<h3><code>{USERNAME}@github ~ $ ./contributions.sh</code></h3>\n\n')
         md.append(f'<img src="./assets/contrib-heatmap.svg" width="860" alt="{DISPLAY_NAME}\'s GitHub contribution graph — auto-refreshed daily" />\n\n')
         md.append('<br>\n<br>\n\n')
+        
+    # 2.5. GitHub Stats Cards
+    md.append(f'<h3><code>{USERNAME}@github ~ $ ./stats.sh</code></h3>\n\n')
+    md.append('<p align="center">\n')
+    md.append(f'  <img src="https://github-readme-stats.vercel.app/api?username={USERNAME}&show_icons=true&bg_color=0d1117&border_color=30363d&title_color=7d8590&text_color=c9d1d9&icon_color=58a6ff" alt="{DISPLAY_NAME}\'s GitHub Stats" />\n')
+    md.append('  &nbsp;&nbsp;\n')
+    md.append(f'  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&bg_color=0d1117&border_color=30363d&title_color=7d8590&text_color=c9d1d9&icon_color=58a6ff" alt="{DISPLAY_NAME}\'s Top Languages" />\n')
+    md.append('</p>\n\n')
+    md.append('<br>\n<br>\n\n')
         
     # 3. Skills Section
     md.append(f'<h3><code>{USERNAME}@github ~ $ ./skills.sh</code></h3>\n\n')
