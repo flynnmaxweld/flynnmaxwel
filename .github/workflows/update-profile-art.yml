@@ -1,7 +1,7 @@
 name: Update Profile Art
 
 # Refreshes the contribution graph SVG daily from real data.
-# Runs daily, plus whenever you push to main, plus on-demand.
+# Runs daily, plus on-demand.
 
 on:
   schedule:
@@ -34,4 +34,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile art [skip ci]"
-          file_pattern: "assets/contrib-heatmap.svg assets/ide-mockup.svg README.md"
+          file_pattern: "assets/contrib-heatmap.svg README.md"
